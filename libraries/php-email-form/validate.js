@@ -137,7 +137,7 @@
       } else {
         this_form.find('.loading').slideUp();
         if(!msg) {
-          msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
+          msg = 'Contact form not working! Please email us on oatsmokgethi@gmail.com ' + action + '<br>';
         }
         this_form.find('.error-message').slideDown().html(msg);
       }
